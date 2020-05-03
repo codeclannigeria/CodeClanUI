@@ -1,32 +1,344 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/dashboard.css">
     <title>Codeclan Nigeria</title>
 </head>
 
 <body>
-    <header>
-        <div class="left">
-            <p>s</p>
-            <h1>Sinau</h1>
+
+    <nav class="navbar navbar-dark fixed-top flex-md-nowrap p-0">
+
+        <a class="navbar-brand col-sm-3 col-md-2" href="#"> <span>s</span>Sinau </a>
+        <a href="">
+            <input type="text" class="form-control form-control-primary w-100 fab fa-facebook"
+                placeholder="Find classes, task and anything..."></a>
+        <a href=""><input type="text" class="form-control form-control-secondary w-75" placeholder="upload Task"></a>
+
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="#">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container-fluid menu">
+        <div class="row">
+            <!-- Sidear -->
+            <div class="col-md-2 d-none d-md-block sidebar">
+                <div class="left-sidebar">
+                    <ul class="nav flex-column sidebar-nav">
+                        <p><a href="">Main Menu</a></p>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="img/overview.svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                <img src="img/overview.svg" alt="">
+                                Overview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Classes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Resources
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Tasks
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Groups
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Messages
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Reports
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <main role="main" class="col-md-7 col-lg-7 ml-sm-auto px-2">
+                <div class="container hi">
+                    <div class="row">
+                        <a href="">x</a>
+                        <h1> Hi, Barly Vallendito</h1>
+                        <p>Sinau Business Class Student is a shared for class to collaborate, communicate,
+                            manage
+                            information. Powerful Features And Integrations.</p>
+                        <p>*Business Class Start Early October 2019</p>
+
+                        <button class="btn btn-primary mr-auto w-20">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="table-responsive col-md-6 col-sm-12">
+                        <table class="table table-light">
+
+                            <thead>
+                                <tr>
+                                    <th scope="col">Subjects</th>
+                                    <th scope="col">Class</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">HCI</th>
+                                    <td>R 302 A</td>
+                                    <td>Mon</td>
+                                    <td>08:10 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Math</th>
+                                    <td>R 201 B</td>
+                                    <td>Tue</td>
+                                    <td>09:50 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Corvis</th>
+                                    <td>Lab-A</td>
+                                    <td>Wed</td>
+                                    <td>09:50 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Database</th>
+                                    <td>Lab-B</td>
+                                    <td>Thur</td>
+                                    <td>08:20 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Network</th>
+                                    <td>R 301 C</td>
+                                    <td>Fri</td>
+                                    <td>12:20 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive col-md-6 col-sm-12">
+                        <table class="table table-light">
+
+                            <thead>
+                                <tr>
+                                    <th scope="col">Subjects</th>
+                                    <th scope="col">Class</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">HCI</th>
+                                    <td>R 302 A</td>
+                                    <td>Mon</td>
+                                    <td>08:10 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Math</th>
+                                    <td>R 201 B</td>
+                                    <td>Tue</td>
+                                    <td>09:50 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Corvis</th>
+                                    <td>Lab-A</td>
+                                    <td>Wed</td>
+                                    <td>09:50 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Database</th>
+                                    <td>Lab-B</td>
+                                    <td>Thur</td>
+                                    <td>08:20 AM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Network</th>
+                                    <td>R 301 C</td>
+                                    <td>Fri</td>
+                                    <td>12:20 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <h3>Your Documents</h3>
+                <hr>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img"></div>
+                                <h5 class="card-title">Presentation-Thinking.pptx</h5>
+                                <p class="card-text">04 September 2019 </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img"></div>
+                                    <h5 class="card-title">Presentation-Thinking.pptx</h5>
+                                    <p class="card-text">04 September 2019 </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Your E-Books</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img"></div>
+                                <h5 class="card-title">Presentation-Thinking.pptx</h5>
+                                <p class="card-text">04 September 2019 </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img"></div>
+                                <h5 class="card-title">Presentation-Thinking.pptx</h5>
+                                <p class="card-text">04 September 2019 </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+
+
+            <div class="col-md-3 float-sm-right d-none d-md-block sidebar-right">
+                <div class="right-sidebar">
+                    <ul class="nav flex-column sidebar-nav ">
+                        <li class="nav-item">
+                            <img src="img/barly.png" alt="">
+                            <h1>Barly Vallendito</h1>
+                            <p>Student - 6th semester</p>
+                            <a class="nav-link active" href="#">...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Jobs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Invoices
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi bi-chevron-right" width="16" height="16" viewBox="0 0 20 20"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"
+                                        clip-rule="evenodd" /></svg>
+                                Reports
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
         </div>
-
-        <div class="right">
-
-            <input type="text" name="task" id="task" class="im" placeholder="Find classes, task and anything...">
-            <input type="text" name="Upload" id="upload" placeholder="Upload Task">
-            <hr>
-            <img src="images/search.png" alt="">
-            <img src="" alt="">
-            <hr>
-            <p>08:10 AM </p>
-        </div>
-    </header>
+    </div>
 
 
+    <script src="js/jquery.3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
 
 </html>
