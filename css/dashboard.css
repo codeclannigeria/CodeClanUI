@@ -3,21 +3,33 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
+  background: #ffffff;
+  color: #303030;
 }
 
-.navbar {
-  color: #303030;
+nav {
   background: #ffffff;
-  border: 1px solid #eaedf3;
+  color: #303030;
+  height: 70px;
+  border: 1px solid #b5b9c2;
   box-sizing: border-box;
 }
 
 .nav .navbar-brand {
   border-radius: 8px;
-  background: #ffffff;
+  background: #303030;
   border: 1px solid #eaedf3;
   box-sizing: border-box;
 }
+
+.nav .navbar-brand a span {
+  color: #000000;
+}
+
+.nav .navbar-brand a input {
+  color: #303030;
+}
+
 .form-control-primary {
   margin: 10px;
   opacity: 0.2;
@@ -26,6 +38,10 @@ body {
 
 .menu {
   position: absolute;
+}
+
+.menu ul {
+  margin-top: 20px;
 }
 
 .sidebar {
