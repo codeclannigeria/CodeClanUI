@@ -215,6 +215,11 @@ tbody tr:not(:first-child) {
   color: #5fd172;
 }
 
+.mini__card__text p {
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+
 .result_name p:nth-child(1),
 .mini__card__text p:nth-child(1) {
   /* Black */
@@ -270,7 +275,7 @@ tbody tr:not(:first-child) {
 .box__grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
 }
 
 .card__custom {
@@ -284,11 +289,6 @@ tbody tr:not(:first-child) {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.mini__card__text p {
-  padding: 0;
-  margin-bottom: 0.25rem;
 }
 
 .ebook_custom {
