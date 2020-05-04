@@ -7,3 +7,5 @@ UI Design of the code clan web app
 Check the Live design in the URL below
 
 [Code Clan UI](https://codeclanui.netlify.app/)
+
+[Code Clan UI](https://codeclannigeria.github.io/CodeClanUI/)
