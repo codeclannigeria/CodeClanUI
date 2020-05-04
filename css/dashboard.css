@@ -146,3 +146,10 @@ main .card {
   padding: 1rem;
   margin-right: 0.5rem;
 }
+
+.fa-ellipsis-h {
+  margin-left: 270px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  line-height: 20px;
+}
