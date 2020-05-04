@@ -2,9 +2,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
   background: #ffffff;
   color: #303030;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 nav {
@@ -91,22 +93,56 @@ main {
 }
 
 .hi {
-  margin: 10px;
+  margin-bottom: 2rem;
   padding: 20px;
   background: #5e81f4;
   color: #ffffff;
-  height: 184px;
+  /* height: 184px; */
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
+  position: relative;
+}
+
+.user__name {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+}
+.user__welcome {
+  padding-left: 2rem;
+}
+.get__started > button {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  border: none;
+
+  padding: 0.5rem 2rem;
+}
+
+#close__user__info {
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  cursor: pointer;
 }
 
 main .card {
   margin-bottom: 20px;
 }
 
-.table {
-  height: 432px;
+.classes_title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  font-weight: 700;
+}
+
+.table-box {
+  /* height: 432px; */
   background: #ffffff;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
+  padding: 1rem;
+  margin-right: 0.5rem;
 }
