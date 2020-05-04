@@ -107,8 +107,6 @@ main {
   border-radius: 16px;
   position: relative;
   background-image: url("../img/card_back.png");
-  /* background-position-y: 0%; */
-  /* background-position-x: 23%; */
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -118,12 +116,6 @@ main {
   top: -2rem;
   left: -32px;
 }
-
-/* .background-vector {
-  position: absolute;
-  top: 0px;
-  left: 1px;
-} */
 
 .user__name {
   font-size: 20px;
@@ -138,7 +130,6 @@ main {
   background: rgba(255, 255, 255, 0.25);
   border-radius: 8px;
   border: none;
-
   padding: 0.5rem 2rem;
 }
 
@@ -162,16 +153,16 @@ main .card {
   padding: 0.75rem;
 }
 
-.thead-light th {
-  background-color: #f8f8f8 !important;
-  border: none !important;
-  color: #222 !important;
-  font-size: 14px !important;
-  line-height: 16px !important;
+.thead_light th {
+  background-color: #f8f8f8;
+  border: none;
+  color: #222;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0.75rem;
 }
 
 .table-box {
-  /* height: 432px; */
   background: #ffffff;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
@@ -183,28 +174,15 @@ tbody tr:not(:first-child) {
   border-top: 1px solid #eaedf3;
 }
 
-tr th {
-  font-size: 14px;
-  line-height: 16px;
-
-  /* Black */
-  color: #222222;
+.table__row td {
+  padding: 1.5rem 0.25rem;
 }
 
-tr td {
-  padding: 1.5rem 0.25rem !important;
-  /* padding-bottom: 1rem !important; */
-}
 .bd-example {
   position: relative;
   padding: 1rem;
   margin: 1rem -15px 0;
-  border: solid #f8f9fa;
   border-width: 0.2rem 0 0;
-}
-
-.result__details .result__detail:not(:first-child) {
-  border-top: 1px solid #eaedf3;
 }
 
 .result__detail {
@@ -215,9 +193,14 @@ tr td {
   padding: 1.5rem 0;
 }
 
+.result__details .result__detail:not(:first-child) {
+  border-top: 1px solid #eaedf3;
+}
+
 .result_name {
   width: 100%;
 }
+
 .result_name p,
 .result_score p {
   padding: 0;
@@ -229,7 +212,6 @@ tr td {
   font-size: 14px;
   line-height: 16px;
   font-weight: 600;
-
   color: #5fd172;
 }
 
@@ -256,7 +238,6 @@ tr td {
   color: #2a5699;
   width: 5.2rem;
   text-align: center;
-  /* margin: 0 auto; */
   align-items: center;
   display: flex;
   justify-content: center;
@@ -275,12 +256,13 @@ tr td {
   background-color: #5fd172;
   border-radius: 8px;
 }
+
 .result_progress::-webkit-progress-value {
   border-radius: 2px;
   background-color: #f0f0f0;
 }
+
 .result_progress::-moz-progress-bar {
-  /* style rules */
   background-color: #5fd172;
   border-radius: 8px;
 }
@@ -288,7 +270,7 @@ tr td {
 .box__grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card__custom {
@@ -297,6 +279,7 @@ tr td {
   max-height: 7rem;
   position: relative;
 }
+
 .mini__card__text {
   display: flex;
   flex-direction: column;
@@ -307,6 +290,7 @@ tr td {
   padding: 0;
   margin-bottom: 0.25rem;
 }
+
 .ebook_custom {
   height: 6.5rem;
 }
