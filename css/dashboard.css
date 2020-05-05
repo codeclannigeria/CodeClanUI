@@ -231,7 +231,6 @@ main {
   font-size: 14px;
   line-height: 16px;
   padding: 0.25rem 0.75rem;
-
   color: #2a5699;
 }
 
@@ -438,6 +437,7 @@ tbody tr:not(:first-child) {
   #close__user__info {
     right: 1rem;
   }
+
   .alert__bell {
     margin: 0;
   }
