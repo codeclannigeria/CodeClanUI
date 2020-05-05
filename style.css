@@ -11,7 +11,7 @@
   height: 80px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .header {
@@ -20,7 +20,7 @@
   height: 82px;
   left: 239px;
   top: -2px;
-  background: #ffffff;
+  background: #fff;
   border: 2px solid #eaedf3;
 }
 
@@ -44,7 +44,7 @@
   top: 27px;
   font-size: 20px;
   line-height: 23px;
-  color: #222222;
+  color: #222;
 }
 
 .header .search-rect {
@@ -108,5 +108,5 @@
   top: 33px;
   font-size: 14px;
   line-height: 16px;
-  color: #222222;
+  color: #222;
 }
