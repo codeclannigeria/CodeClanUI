@@ -1,112 +1,106 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: cursive, sans-serif;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: cursive, sans-serif;
 }
-
-.left-sidebar {
-  position: absolute;
-  width: 245px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #fff;
+.left-sidebar{
+    position: absolute;
+    width: 245px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;  
 }
-
-.header {
-  position: absolute;
-  width: 1127px;
-  height: 82px;
-  left: 239px;
-  top: -2px;
-  background: #fff;
-  border: 2px solid #eaedf3;
+.header{
+    position: absolute;
+    width: 1127px;
+    height: 82px;
+    left: 239px;
+    top: -2px;
+    background: #FFFFFF;
+    border: 2px solid #EAEDF3;
 }
-
-.left-sidebar .s {
-  position: absolute;
-  width: 12.75px;
-  height: 26.56px;
-  left: 43px;
-  top: 29.31px;
-  font-family: sans-serif, cursive;
-  font-size: 18px;
-  line-height: 21px;
-  color: #2a5699;
+.left-sidebar .s{
+    position: absolute;
+    width: 12.75px;
+    height: 26.56px;
+    left: 43px;
+    top: 29.31px;
+    font-family: sans-serif, cursive;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2A5699;
 }
-
-.left-sidebar .sinau {
-  position: absolute;
-  width: 55px;
-  height: 27px;
-  left: 86px;
-  top: 27px;
-  font-size: 20px;
-  line-height: 23px;
-  color: #222;
+.left-sidebar .sinau{ 
+    position: absolute;
+    width: 55px;
+    height: 27px;
+    left: 86px;
+    top: 27px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
 }
-
-.header .search-rect {
-  position: relative;
-  right: 15rem;
+.header .search-rect{
+    position: relative;
+    right: 15rem;
+    /* display: flex;
+    justify-content: space-between; */
 }
-
-.header .search-rect button.search-content {
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  left: 280px;
-  top: 20px;
-  background-color: #fbfbfd;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.5 1rem;
-  border: transparent;
+.header .search-rect button.search-content{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 280px;
+    top: 20px;
+    background-color: #FBFBFD;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.5 1rem;
+    border: transparent;
 }
-
-.header .search-rect button.upload-task {
-  position: absolute;
-  width: 150px;
-  height: 40px;
-  left: 900px;
-  top: 20px;
-  background: rgba(42, 86, 153, 0.1);
-  border-radius: 8px;
-  border: transparent;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.5rem 1rem;
+/* .header .search-rect button svg{
+    margin-right: 1rem;
+} */
+.header .search-rect button.upload-task{   
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 900px;
+    top: 20px;
+    background: rgba(42, 86, 153, 0.1);
+    border-radius: 8px;
+    border: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.5 1rem;
 }
-
-.bordered-out {
-  border-left: 1px solid rgba(234, 237, 243, 0.6);
-  position: relative;
-  left: 0;
+.bordered-out{
+    border-left: 1px solid rgba(234, 237, 243, 0.6);
+    position: relative;
+    left: 0rem;
 }
-
-.bordered-out svg.fa-bell {
-  position: absolute;
-  left: 950px;
-  top: 2rem;
+.bordered-out svg.fa-bell{
+    position: absolute;
+    left: 950px;
+    top: 2rem;
 }
-
-.bordered-out svg.fa-cog {
-  position: absolute;
-  left: 900px;
-  top: 2rem;
+.bordered-out svg.fa-cog{
+    position: absolute;
+    left: 900px;
+    top: 2rem;
 }
-
-.bordered-out p {
-  position: absolute;
-  width: 61px;
-  height: 19px;
-  left: 1000px;
-  top: 33px;
-  font-size: 14px;
-  line-height: 16px;
-  color: #222;
+.bordered-out p{
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 1000px;
+    top: 33px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222222;
 }
