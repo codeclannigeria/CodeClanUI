@@ -42,6 +42,16 @@
     line-height: 23px;
     color: #222222;
 }
+
+/*Icon styles*/
+a .nav-link  {
+    color: #626262;
+    margin-right: 2rem;
+}
+
+
+
+
 .header .search-rect{
     position: relative;
     right: 15rem;
