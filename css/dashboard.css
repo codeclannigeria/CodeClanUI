@@ -1,21 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Darker Grotesque", sans-serif;
-}
-
-/* utility classes */
-
-.black_text {
-  color: #222222;
-}
-
-.gray_color {
-  color: #a7a7a7;
-}
-
-body {
   background: #ffffff;
   color: #303030;
   font-family: "Darker Grotesque", sans-serif;
@@ -32,7 +18,6 @@ body {
 nav {
   background: #ffffff;
   color: #303030;
-
   border: 1px solid #b5b9c2;
   box-sizing: border-box;
 }
@@ -170,7 +155,7 @@ nav ul li {
 }
 
 .right-sidebar {
-  /* position: fixed; */
+  position: fixed;
   top: 2;
   height: calc(100vh - 70px);
 }
@@ -182,6 +167,7 @@ nav ul li {
 
 main {
   background: #f2f2f8;
+  padding-top: 150px;
 }
 
 .main-top {
@@ -225,16 +211,6 @@ main {
   top: 1rem;
   right: 3rem;
   cursor: pointer;
-}
-
-.upload__bar {
-  background: rgba(42, 86, 153, 0.1);
-  border-radius: 8px;
-  font-size: 14px;
-  line-height: 16px;
-  padding: 0.25rem 0.75rem;
-
-  color: #2a5699;
 }
 
 main .card {
@@ -403,30 +379,6 @@ tbody tr:not(:first-child) {
   .box__grid {
     display: block;
   }
-  .searchContainer {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .searchContainer {
-    display: none;
-  }
-  .time__element {
-    position: static;
-    text-align: center;
-    padding: 0.4rem;
-  }
-
-  .notification__container {
-    padding: 0;
-    flex-direction: column;
-    margin: 1rem;
-  }
-
-  .notification__container li:nth-child(1) {
-    margin: 1rem;
-  }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -435,31 +387,8 @@ tbody tr:not(:first-child) {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
   #close__user__info {
     right: 1rem;
   }
-  .alert__bell {
-    margin: 0;
-  }
-
-  .upload__bar__search__bar {
-    padding-left: 7rem;
-    flex-grow: 0;
-  }
 }
-
-@media only screen and (max-width: 360px) {
-  .thead_light th {
-    padding: 0.25rem;
-  }
-
-  .bd-example {
-    padding: 0;
-  }
-}
-
-/* element {
-	font-size: 12px;
-	white-space: pre-wrap;
-} */
