@@ -18,9 +18,22 @@ body {
 nav {
   background: #ffffff;
   color: #303030;
-  height: 70px;
   border: 1px solid #b5b9c2;
   box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.icon_item {
+  width: 0;
 }
 
 .nav .navbar-brand {
@@ -38,6 +51,71 @@ nav {
   color: #303030;
 }
 
+.upload__bar__search__bar {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.9;
+  padding-left: 8rem;
+  flex-grow: 0.8;
+}
+
+.searchContainer {
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  background: #fbfbfd;
+  border-radius: 8px;
+  align-items: center;
+  width: 19rem;
+  border: 1px solid #eaedf3;
+}
+
+.searchIcon {
+  margin: 0 0.75rem 0 0.75rem;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+  font-size: 12px;
+  background: #fbfbfd;
+  border-radius: 8px;
+}
+
+.searchButton {
+  background: #538ac5;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+.notification__container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+  border-left: 1px solid rgba(234, 237, 243, 0.6);
+  border-right: 1px solid rgba(234, 237, 243, 0.6);
+}
+
+.notification__container li:nth-child(1) {
+  font-size: 16px;
+  margin-right: 1.5rem;
+}
+
+.alert__bell {
+  margin: 0 1.5rem;
+}
+
+.time__element {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  font-weight: 600;
+}
+
 .form-control-primary {
   margin: 10px;
   opacity: 0.2;
@@ -53,29 +131,23 @@ nav {
 }
 
 .sidebar {
-  position: relative;
   left: 0;
   bottom: 0;
   top: 0;
   z-index: 100;
-  padding: 70px 0 0 10px;
   border-right: 1px solid #d3d3d3;
 }
 .sidebar-right {
-  position: relative;
   left: 0;
   bottom: 0;
   top: 0;
   z-index: 100;
   background: #ffffff;
   color: #303030;
-  margin-top: 70px;
-  padding: 40px 0 0 10px;
   border-left: 1px solid #d3d3d3;
 }
 
 .left-sidebar {
-  position: fixed;
   top: 1;
   height: calc(100vh - 70px);
   background: #ffffff;
