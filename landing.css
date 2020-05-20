@@ -42,8 +42,6 @@ nav {
   justify-content: space-between;
   padding: 1rem 4rem;
   align-items: center;
-  position: relative;
-  z-index: 1;
   background: #fff;
 }
 
@@ -57,41 +55,68 @@ nav ul li {
   margin: 0 10px;
 }
 
-.header-background {
-  position: absolute;
-  top: -7rem;
-}
-
 .header-about {
   display: grid;
-  grid-template-areas: "text image";
+  grid-template-columns: 1fr 1.5fr;
   justify-content: center;
   align-items: center;
-}
-
-.center-with-position {
-  height: 100px;
-  width: 100%;
-  position: absolute;
-  left: 12%;
-  margin-left: -50px;
-  top: 23rem;
-  margin-top: -50px;
 }
 
 .header__section {
   height: 100vh;
   max-height: 100%;
-  margin-bottom: 20rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.description__section {
+  background: rgba(53, 151, 245, 0.1);
+  width: 100%;
+}
+
+.clan_cards {
+  width: 100%;
+}
+
+.description__cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  position: absolute;
+  top: 94%;
+  width: 100%;
+}
+
+.description__card {
+  background: rgba(31, 89, 187, 0.25);
+  box-shadow: 0px 4px 10px rgba(31, 89, 187, 0.15);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.8;
+  max-height: 11rem;
+}
+
+.description__goals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15rem;
+}
+
+.goals__texts {
+  padding: 1rem;
+}
+
+.goals__texts a {
+  color: #000;
 }
 
 @media only screen and (max-width: 700px) {
-  .header__section {
-    margin-bottom: 20rem;
-  }
-
   .header-about {
-    grid-template-areas: "image" "text";
+    grid-template-columns: 1fr;
   }
 
   .header__about__text {
@@ -100,5 +125,17 @@ nav ul li {
 
   .header-background {
     top: -1rem;
+  }
+
+  .description__cards {
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 0 auto;
+    padding-right: 2rem;
+  }
+
+  .description__goals {
+    flex-direction: column;
+    padding-top: 20rem;
   }
 }
