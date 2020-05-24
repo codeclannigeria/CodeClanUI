@@ -1,60 +1,61 @@
-*{
+* {
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
-body{
-  background-color: #f7f4f4;
+body {
+  background-color:#f7f4f4;
   font-family:sans-serif;
 }
-.blue{
+.blue {
   color:#1F59BB;
   text-transform: capitalize;
   font-weight: 400;
 }
-.info{
+.info {
   font-size: 13px;
   font-weight: 600;
   text-transform: capitalize;
 }
-.signUp{
-  padding:0 .2rem;
+.signUp {
+  padding:0rem 0.2rem;
 }
-.privacy{
+.privacy {
   font-weight: 300;
   text-align: center;
   margin-top: 1rem;
   font-size: 12px;
 }
-.submit{
+.submit {
   text-transform: capitalize;
   text-align: center;
   color:#fff;
   width: 100%;
   background-color: #1F59BB;
   border:transparent;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   padding:.6rem 0;
   border-radius: 10px;
 }
-.submit::after{
+
+.submit::after {
   content: '!';
 }
-.signIn{
+.signIn {
   text-align: center;
   margin-top: 1.2rem;
   display: flex;
   align-self: center;
   justify-content: center;
 }
-.signIn span{
+.signIn span {
   padding-left: .3rem;
 }
-span a{
+span a {
   color:darkblue;
   font-weight: 500;
 }
-input{
+input {
   border: 1px solid #1F59BB;
   background:rgba(31, 89, 187, 0.05);
   border-radius:5px;
@@ -62,7 +63,7 @@ input{
   width: 100%;
   margin-top: .5rem;
 }
-label{
+label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -71,7 +72,7 @@ label{
   color: #1F59BB;
   font-size: 17px;
 }
-.title{
+.title {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -80,7 +81,7 @@ label{
   font-weight: 600;
   margin-top: 50px;
 }
-.signUpDiv{
+.signUpDiv {
   width: fit-content;
   height: auto;
   background-color: #fff;
@@ -88,19 +89,19 @@ label{
   display: block;
   margin: 20px auto;
 }
-#signUpForm{
+#signUpForm {
   padding:1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items:flex-start;
 }
-.nameInputGroup{
+.nameInputGroup {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 1rem;
 }
-.nameInputGroup label:nth-child(2){
+.nameInputGroup label:nth-child(2) {
   padding-left:1rem;
 } 
