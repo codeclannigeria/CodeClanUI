@@ -7,37 +7,45 @@
     <link rel="stylesheet" href="./css/signup.css" />
   </head>
   <body>
-    <p class="title">Sign Up</p>
-    <div class="signUpDiv">
-      <form action="" id="signUpForm">
-        <p class="info blue signUp">sign up with email</p>
-        <div class="nameInputGroup">
-          <label for="firstName">
-            FirstName<br />
-            <input type="text" id="firstName" />
+    <div id="wrapper">
+      <div id="signUpInfo">
+        <img src="./img/codeclannglogo.png" alt="Code Clan Logo" id="logo" />
+        <h1 class="infoHeading">welcome to CodeClan<br />Nigeria</h1>
+        <p class="infoSubheading">sign up to</p>
+        <img src="./img/keyToComputer.png " alt="" id="infoIllustration" />
+      </div>
+      <div id="signUpDiv">
+        <form action="" id="signUpForm">
+          <div class="nameInputGroup">
+            <label for="firstName" class="label">
+              FirstName<br />
+              <input type="text" id="firstName" class="input" />
+            </label>
+            <label for="lastName" class="label">
+              LastName<br />
+              <input type="text" id="lastName" class="input" />
+            </label>
+          </div>
+          <label for="email " class="label">
+            Email<br />
+            <input type="email" name="" id="email" class="input" />
           </label>
-          <label for="lastName">
-            LastName<br />
-            <input type="text" id="lastName" />
+          <label for="password" class="label">
+            Password<br />
+            <input type="password" name="" id="password" class="input" />
           </label>
-        </div>
-        <label for="email">
-          Email<br />
-          <input type="email" name="" id="email" />
-        </label>
-        <label for="password">
-          Password<br />
-          <input type="password" name="" id="password" />
-        </label>
-        <p class="info blue privacy">
-          by clicking on this button, you agree to our Terms of use and privacy
-          policy
-        </p>
-        <button class="submit">get started</button>
-        <p class="info blue signIn">
-          already have an account?<span><a href="signin.html">Sign In</a></span>
-        </p>
-      </form>
+          <p class="info blue privacy">
+            by clicking on this button, you agree to our Terms of use and
+            privacy policy
+          </p>
+          <button class="submit">get started</button>
+          <p class="info blue signIn">
+            already have an account?<span
+              ><a href="signin.html">Sign In</a></span
+            >
+          </p>
+        </form>
+      </div>
     </div>
   </body>
 </html>
