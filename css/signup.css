@@ -7,6 +7,9 @@ body {
   background-color: #f7f4f4;
   font-family: serif;
 }
+.none {
+  display: none;
+}
 /**Reusables*/
 .blue {
   color: #1f59bb;
@@ -22,13 +25,15 @@ body {
 #wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  width: 100%;
+  height: 100vh;
 }
 /**SignUpInfo Styles*/
 #signUpInfo {
   background-color: #1f59bb;
   color: #ffffff;
   padding: 2rem;
+  width: 100%;
 }
 #logo {
   color: #fff;
@@ -38,7 +43,7 @@ body {
 .infoHeading,
 .infoSubheading {
   text-transform: capitalize;
-  line-height: 2rem;
+  line-height: 2.5rem;
   margin: 1rem;
 }
 .infoSubheading::after {
@@ -55,7 +60,8 @@ body {
 #signUpDiv {
   background-color: #fff;
   border: transparent;
-  padding: 3rem;
+  padding: 2rem;
+  width: 100%;
 }
 .nameInputGroup {
   display: flex;
@@ -115,4 +121,41 @@ body {
 span a {
   color: darkblue;
   font-weight: 500;
+}
+/**Responsiveness**/
+@media only screen and (max-width: 800px) {
+  #signUpInfo {
+    display: none;
+  }
+  #signUpDiv {
+    padding-top: 3rem;
+  }
+  h1.show {
+    display: block;
+    font-size: 35px;
+    color: #1f59bb;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  h1.show:after {
+    content: ".";
+    font-size: 30px;
+    font-weight: 500;
+  }
+  h2.display {
+    margin-top: 0.5rem;
+    display: block;
+    color: #1f59bb;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 1;
+  }
+  .nameInputGroup {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .nameInputGroup label:nth-child(2) {
+    margin-left: 0;
+  }
 }
