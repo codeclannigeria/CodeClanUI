@@ -145,7 +145,7 @@ body {
 
 .cards .card {
   background: #fbfcff;
-  box-shadow: 0px 0px 4px rgba(31, 89, 187, 0.15);
+  box-shadow: 0px 4px 15px rgba(31, 89, 187, 0.1);
   border: none;
   height: 148px;
   border-radius: 10px;
