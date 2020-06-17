@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="user-dashboard.css">
     <link rel="stylesheet" href="taskPage1.css">
+    <script src="https://kit.fontawesome.com/833e0cadb7.js" crossorigin="anonymous"></script>
     <title>Dashboard | CCN</title>
 </head>
 
@@ -15,8 +16,8 @@
 
     <div class="dashboard-wrap row">
 
-        <nav class="col-2">
-    
+        <nav class="col-2 sidebar">
+
             <ul class="nav flex-column">
                 <li class="nav-item mt-5 mb-5">
                     <a class="nav-link active" href="#">
@@ -56,11 +57,11 @@
             </ul>
         </nav>
 
-   
 
-        <div class="dashboard-content col-10">
+
+        <div class="dashboard-content col-md-10 container">
             <div class="top-bar mt-3">
-                <nav class="navbar navbar-light">
+                <nav class="top-nav">
 
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search dashboard" aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -71,17 +72,25 @@
                         </div>
                     </div>
 
-        
+                    <div class="user__details">
+                        <div class="">
+                            <img src="img/notification.png" alt="notification-icon">
+                        </div>
+
+                        <div class="display-profile">
+                            <div class="display-picture"></div>
+                            <p class="mt-2 ml-4">John Doe</p>
+                        </div>
+
+                        <div class="hamburger-menu">
+                            <i class="fas fa-bars fa-2x text-blue"></i>
+                        </div>
+                    </div>
+
+
                 </nav>
 
-                <div class="">
-                    <img src="img/notification.png" alt="notification-icon">
-                </div>
 
-                <div class="display-profile">
-                    <div class="display-picture"></div>
-                    <p class="mt-2 ml-4">John Doe</p>
-                </div>
             </div>
 
 
@@ -102,21 +111,7 @@
                                 <p class='task-track'>Frontend</p>
                             </div>
                             <div class="task-deadline">
-                                <p >Deadline 19/03</p>
-                            </div>
-                        </div>
-                    
-                    </div>
-
-                    <div class="pending-task">
-                        
-                        <div class="task-box">
-                            <div class='task-details'>
-                                <p class='task-name'>Task 4 : Build an API</p>
-                                <p class='task-track'>Frontend</p>
-                            </div>
-                            <div class="task-deadline">
-                                <p >Deadline 19/03</p>
+                                <p>Deadline 19/03</p>
                             </div>
                         </div>
 
@@ -130,10 +125,10 @@
                                 <p class='task-track'>Frontend</p>
                             </div>
                             <div class="task-deadline">
-                                <p >Deadline 19/03</p>
+                                <p>Deadline 19/03</p>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="pending-task">
@@ -144,18 +139,34 @@
                                 <p class='task-track'>Frontend</p>
                             </div>
                             <div class="task-deadline">
-                                <p >Deadline 19/03</p>
+                                <p>Deadline 19/03</p>
                             </div>
                         </div>
-                        
+
                     </div>
-                
+
+                    <div class="pending-task">
+
+                        <div class="task-box">
+                            <div class='task-details'>
+                                <p class='task-name'>Task 4 : Build an API</p>
+                                <p class='task-track'>Frontend</p>
+                            </div>
+                            <div class="task-deadline">
+                                <p>Deadline 19/03</p>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div class="next-button">
 
-                    <p><a href="#">Next</a></p>
-                   
+                    <p>
+                        <a href="#">Next</a>
+                    </p>
+
                 </div>
             </div>
 
