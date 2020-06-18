@@ -285,6 +285,13 @@ body {
     text-align: center;
   }
 
+  .card-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin-bottom: 3px;
+  }
+
   .top-nav {
     justify-content: flex-end;
   }
