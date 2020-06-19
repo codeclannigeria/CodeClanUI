@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="user-dashboard.css" />
+    <link rel="stylesheet" href="profile-about.css" />
+    <title>Profile-About Page | CCN</title>
+  </head>
+
+  <body>
+    <div class="dashboard-wrap row">
+      <nav class="col-2">
+        <ul class="nav flex-column">
+          <li class="nav-item mt-5 mb-5">
+            <a class="nav-link active" href="#">
+              <img src="img/svgs/ccn-logo-white.svg" alt="code clan logo" />
+            </a>
+          </li>
+          <li class="nav-item mb-5">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/home-icon.svg" alt="home-icon" />
+            </a>
+          </li>
+          <li class="nav-item mb-5">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/group-icon.svg" alt="group-icon" />
+            </a>
+          </li>
+          <li class="nav-item mb-5">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/comment-icon.svg" alt="comment-icon" />
+            </a>
+          </li>
+          <li class="nav-item mb-5">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/Vector-2.svg" alt="icon" />
+            </a>
+          </li>
+          <li class="nav-item mb-5 active-icon">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/Vector-1.svg" alt="icon" />
+            </a>
+          </li>
+          <li class="nav-item mt-5 mb-5">
+            <a class="nav-link" href="#">
+              <img src="img/svgs/settings.svg" alt="settings-icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="dashboard-content col-10">
+        <div class="top-bar mt-3">
+          <div class="">
+            <img src="img/notification.png" alt="notification-icon" />
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="image">
+            <img class="image" src="./img/barly.png" alt="" />
+          </div>
+          <div class="summary">
+            <p class="name">John Doe</p>
+            <div class="info">
+              <p>Hi, I’m John Doe, your mentor for this program.</p>
+              <p>
+                Over the next couple of weeks, I’d be offering one on one
+                training with you on your Front-End development journey.
+              </p>
+
+              <p>
+                Don’t forget to put to practice all you learn from me and
+                CodeClan Nigeria , as it is only through practice we grow.
+              </p>
+
+              <p>Feel free to contact me if you encounter any issues.</p>
+            </div>
+            <div class="goodluck">
+              Best of Luck
+            </div>
+          </div>
+          <div class="buttonContainer">
+            <button onclick="showPanel(0,'#fbfcff')">About</button>
+            <button onclick="showPanel(1,'#fbfcff')">Contact</button>
+          </div>
+          <div class="contact">
+            <div class="tabContainer">
+              <div class="tabPanel">Tab 1: Content</div>
+              <div class="tabPanel">Tab 2: Content</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let tabButtons = document.querySelectorAll(" .buttonContainer button");
+      let tabPanels = document.querySelectorAll(".tabContainer  .tabPanel");
+
+      function showPanel(panelIndex, colorCode) {
+        tabButtons.forEach(function (node) {
+          node.style.backgroundColor = "";
+          node.style.color = "";
+        });
+        tabButtons[panelIndex].style.backgroundColor = colorCode;
+        tabButtons[panelIndex].style.color = "black";
+        tabPanels.forEach(function (node) {
+          node.style.display = "none";
+        });
+        tabPanels[panelIndex].style.display = "block";
+        tabPanels[panelIndex].style.backgroundColor = colorCode;
+      }
+      showPanel(0, "#fbfcff");
+    </script>
+  </body>
+</html>
