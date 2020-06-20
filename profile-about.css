@@ -1,0 +1,119 @@
+.profile-container {
+}
+.image {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+.summary {
+  position: absolute;
+  width: 350px;
+  top: 280px;
+  padding: 15px;
+  background: #fbfcff;
+  box-shadow: 0px 4px 15px rgba(31, 89, 187, 0.1);
+  border-radius: 10px;
+}
+.name {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 35px;
+  text-align: center;
+  color: #000000;
+}
+.info {
+  font-family: Nunito;
+  color: #000000;
+  font-size: 15px;
+}
+.goodluck {
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+.contact {
+  position: absolute;
+  width: 697px;
+  left: 400px;
+  top: 280px;
+  background: #fbfcff;
+  box-shadow: 0px 4px 15px rgba(31, 89, 187, 0.1);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.tabContainer {
+  width: 100%;
+  height: 385px;
+  background: #fbfcff;
+}
+.buttonContainer {
+  height: 15%;
+  margin-left: 400px;
+  left: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+button {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 350;
+  text-align: center;
+  font-size: 25px;
+  background-color: #fbfcff;
+  border: none;
+}
+button:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.tabPanel {
+  height: 85%;
+  background-color: grey;
+  color: black;
+  text-align: center;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-size: 22px;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    padding-top: 9px;
+  }
+
+  .image {
+    border-radius: 100px;
+    padding-bottom: 8px;
+    height: 180px;
+    right: 20px;
+  }
+
+  .summary {
+    padding-top: 50px;
+    width: 360px;
+    right: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    width: 300px;
+    right: 400px;
+    top: 140px;
+  }
+}
