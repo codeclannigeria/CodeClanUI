@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="user-dashboard.css">
+    <link rel="stylesheet" href="taskPage2.css">
+    <script src="https://kit.fontawesome.com/833e0cadb7.js" crossorigin="anonymous"></script>
+    <title>Dashboard | CCN</title>
+</head>
+
+<body>
+
+    <div class="dashboard-wrap row">
+
+        <nav class="col-2 sidebar">
+
+            <ul class="nav flex-column">
+                <li class="nav-item mt-5 mb-5">
+                    <a class="nav-link active" href="#">
+                        <img src="img/svgs/ccn-logo-white.svg" alt="code clan logo">
+                    </a>
+                </li>
+                <li class="nav-item mb-5">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/home-icon.svg" alt="home-icon">
+                    </a>
+                </li>
+                <li class="nav-item mb-5">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/group-icon.svg" alt="group-icon">
+                    </a>
+                </li>
+                <li class="nav-item mb-5">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/comment-icon.svg" alt="comment-icon">
+                    </a>
+                </li>
+                <li class="nav-item mb-5">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/Vector-2.svg" alt="icon">
+                    </a>
+                </li>
+                <li class="nav-item mb-5 active-icon">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/Vector-1.svg" alt="icon">
+                    </a>
+                </li>
+                <li class="nav-item mt-5 mb-5">
+                    <a class="nav-link" href="#">
+                        <img src="img/svgs/settings.svg" alt="settings-icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <div class="dashboard-content col-md-10 container">
+            <div class="top-bar mt-3">
+                <nav class="top-nav">
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search dashboard" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary bg-blue" type="button" id="button-addon2">
+                                <img src="img/search.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="user__details">
+                        <div class="">
+                            <img src="img/notification.png" alt="notification-icon">
+                        </div>
+
+                        <div class="display-profile">
+                            <div class="display-picture"></div>
+                            <p class="mt-2 ml-4">John Doe</p>
+                        </div>
+
+                        <div class="hamburger-menu">
+                            <i class="fas fa-bars fa-2x text-blue"></i>
+                        </div>
+                    </div>
+
+
+                </nav>
+
+
+            </div>
+
+              <div class="container-fluid mt-5 py-3">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="card border-light mb-3 task3" style="max-width: 23rem; height: 40;">
+                                <div class="card-header font-weight-bold">Task 3</div>
+                                <div class="card-body px-5">
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum tortor risus, in eu. Quis bibendum libero tellus vestibulum convallis arcu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 submitTask">
+
+                            <div class="card">
+                                <h5 class="card-header font-weight-bold"> Submit Task - Day 3</h5>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group mt-5">
+                                          <label for="FormControlInput font-weight-bold">Url</label>
+                                          <input type="url" class="form-control" id="FormControlInput" placeholder="Provide the link to your task">
+                                          
+                                        </div>
+                                        <a href="#">Submission Guidelines</a>
+                                   
+                                        <div class="form-group mt-5">
+                                          <label for="FormControlTextarea font-weight-bold">Comments</label>
+                                          <textarea class="form-control " id="FormControlTextarea" placeholder="Include any challenges encounter" rows="5"></textarea>
+                                        </div>
+                                        <p class="text-center">
+                                            <a href="#" class="btn btn-primary w-75 text-center mt-5 mb-5">SUBMIT TASK</a>
+                                        </p>
+                                      </form>
+                                      
+                                  
+                                </div>
+                              </div>
+                              
+                        </div>
+                    </div>
+
+             
+
+
+
+                 
+              </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
