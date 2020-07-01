@@ -1,0 +1,20 @@
+
+
+.task3{
+    background: #FBFCFF;
+border: 0.25px solid #1F59BB;
+box-shadow: 0px 4px 15px rgba(31, 89, 187, 0.1);
+}
+
+.submitTask .card{
+    background: #FBFCFF;
+}
+.submitTask .card .form-control{
+    background: rgba(225, 230, 237, 0.2);
+    border: 1px solid rgba(21, 61, 128, 0.2);
+    border-radius: 5px;
+}
+
+.submitTask .card form p.text-center .btn{
+    background: #1F59BB;
+}
