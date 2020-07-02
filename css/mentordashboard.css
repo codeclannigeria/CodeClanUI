@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #fcfcfc;   
+}
+
+.container {
+display:flex;
+overflow: hidden;
+}
+
+/*side bar nav style starts here*/
+.sidebar {
+padding: 30px;
+background: #0050AF;
+height: 600px;   
+}
+.nav-link {
+list-style: none;
+}
+
+.nav-link li {
+margin-bottom: 40px;
+}
+.nav-link a {
+color: #fff;
+text-decoration: none;
+}
+
+.text-yellow {
+color: #FFC100;
+font-size: 16px;
+padding-right: 10px;
+padding-top: 15px;
+}
+
+.text-white {
+padding-left: 15px;
+font-size: 16px;
+padding-right: 10px;
+padding-top: 15px;
+}
+
+.btn-sign-out  {
+background: #004191;
+transform: translateY(200px);
+padding: 10px 40px;
+border: none;
+border-radius: 5px;
+}
+
+.butn {
+color: #fff;
+}
+
+.fa-power-off {
+color: #fff;
+padding-right: 10px;
+}
+
+/*side bar nav style ends here*/
+
+/*content style starts here*/
+
+.content {
+/* align-items: flex-end;
+justify-content: flex-end;*/
+transform: translateY(300px);
+margin: 0 auto;
+}
+
+
+.content-list .item {
+display: flex;
+justify-content: space-evenly;
+background: #F9FAFC;
+margin-bottom: 30px;
+background-color: #f3f4f5;
+border-radius: 5px;
+}
+
+.item li {
+margin-right: 35px;
+margin-left: 35px;
+list-style: none;
+font-size: 13px;
+padding: 20px 10px;
+}
+
+.no-line {
+text-decoration: none;
+}
