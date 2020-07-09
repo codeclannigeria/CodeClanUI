@@ -1,0 +1,177 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blur {
+    filter: blur(8px);
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+.blur:after {
+    content: '';
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.15);
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    box-shadow: inset 100vw 100px 410px rgba(0, 0, 0, 0.4), inset -100vw -100px 410px rgba(0, 0, 0, 0.4);
+}
+*/
+
+.dashboard-wrap > nav {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+}
+
+.dashboard-wrap > nav > ul > li > .dashboard-icon { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.dashboard-wrap > nav > ul > li > ul > li > a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-wrap >  nav > button {
+    border: none;
+    background: #004699;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #F9FAFC;
+}
+
+.dashboard-content {
+    margin: 0 auto;
+    margin-left: 217px;
+}
+
+nav.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 5rem;
+}
+
+.courses > .card {
+    border-radius: 6.5px;
+}
+
+.courses > .card .card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses > .card .card-buttons > button {
+    width: 47%;
+}
+
+.courses > .card .card-buttons > button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.courses > .card .card-buttons > .btn-delete {
+    border: 1.4px solid #0050AF;
+    color: #0050AF;
+}
+
+.courses > .card .card-buttons > .btn-delete:hover {
+    background-color: #0050AF;
+    color: #fff;
+}
+
+.courses > .card .card-buttons > .btn-edit {
+    background-color: #0050AF;
+    border: none;
+}
+
+.add-new-course {
+    border: 2px dashed #0050AF;
+}
+
+.add-new-course > div > button {
+    border: none;
+    background: none;
+}
+
+
+
+.form-edit-course {
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    background: #ffffff;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.form-edit-course .form-group > select,
+.form-edit-course .form-group > input,
+.form-edit-course .form-group > textarea {
+    background: rgba(224, 231, 255, 0.2);
+    border: 1px solid #E0E7FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form-edit-course .form-group > label {
+    color: #B0BAC9;
+}
+
+.form-edit-course > button.btn-submit {
+    width: 100%;
+    background: #0050AF;
+    border-radius: 5px;
+}
+
+.form-edit-course > button.btn-danger {
+    margin-left: 91%;
+    margin-bottom: 15px;
+}
+
+
+/*** UTILITIES ***/
+
+.text-white {
+    color: #F9FAFC;
+}
+
+.text-yellow {
+    color: #FFC100;
+}
+
+.text-blue {
+    color: #1F59BB
+}
+
+.active {
+    background: #004699;
+    height: 100%;
+    padding: 15px 0;
+    width: 100%
+}
+
+
+@media (max-width: 467px) {
+    .form-edit-course {
+        left: 15%;
+
+    }
+}
