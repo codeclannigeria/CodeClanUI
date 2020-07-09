@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fcfcfc;
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+/*side bar nav style starts here*/
+.sidebar {
+  background: #0050af;
+  height: 1300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 200px;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.nav-link {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-link li {
+  margin-bottom: 40px;
+}
+.nav-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-yellow {
+  color: #ffc100;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.text-white {
+  padding-left: 15px;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.btn-sign-out {
+  background: #004191;
+  transform: translateY(200px);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.butn {
+  color: #fff;
+}
+
+.fa-power-off {
+  color: #fff;
+  padding-right: 10px;
+}
+
+/*content style starts here*/
+
+.content {
+  /* align-items: flex-end;
+justify-content: flex-end;*/
+  transform: translateY(300px);
+  margin: 0 auto;
+}
+.navbar:last-child {
+  padding-right: 15.5em;
+}
+.navbar .navbar-brand {
+  margin-right: 15.5em;
+  padding: 1em;
+}
+.fa-trash,
+.fa-pen {
+  justify-content: space-between;
+  display: inline-flex;
+}
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 20px 10px;
+  color: black;
+}
+
+.section-2 {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 20px 10px;
+  color: black;
+}
+.circular-square {
+  border-radius: 50px;
+  width: 100px;
+}
+.img-fluid {
+  border-radius: 50px;
+  width: 30px;
+  float: inherit;
+}
+.breadcrumb-item.btn {
+  border-radius: 0.7rem;
+}
+.action-btn .btn {
+  justify-content: space-between;
+  border-radius: 0.7rem;
+  border-color: rgb(76, 129, 197);
+}
+.btn btn-light {
+  color: royalblue;
+}
+.breadcrumb {
+  background: transparent;
+}
+.card {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.fa-search {
+  background: white;
+  border-radius: 0 5px 0 5px;
+}

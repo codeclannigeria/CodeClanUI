@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Admin Dashboard Mentors | CCN</title>
+    <script
+      src="https://kit.fontawesome.com/833e0cadb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css\admin-dashboard-mentors.css" />
+    <link rel="stylesheet" href="user-dashboard.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <!--Codeclan Nigeria Logo and side bar icons start here-->
+      <ul class="nav-link">
+        <li><img class="logo" src="img\white logo.png" alt="" /></li>
+        <li>
+          <a href="">
+            <i class="fas fa-th-large fa-2x text-yellow"></i
+            ><span>Dashboard</span></a
+          >
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-layer-group fa-2x text-white"></i
+            ><span>Courses</span></a
+          >
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-layer-group fa-2x text-white"></i
+            ><span>Mentees</span></a
+          >
+        </li>
+      </ul>
+      <button class="btn-sign-out">
+        <i class="fas fa-power-off"></i><span class="butn">Logout</span>
+      </button>
+    </div>
+    <!--main content-->
+    <section class="main">
+      
+    <!--  <div class="container-fluid-flex flex-row justify-content-center flex-wrap pt-5">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item" aria-current="page">
+              Mentees
+            </li>
+            <div class="mr-auto"></div>
+            
+            
+                <li class="breadcrumb-item" >
+                    <i class="far fa-user-circle"></i>
+                  </li>
+            <li class="breadcrumb-item" aria-current="page">
+                <i class="far fa-bell"></i>
+              </li>
+          </ol>
+          
+        </nav>
+      </div>-->
+      <div class="dashboard-content col-md-10 container">
+        <div class="top-bar mt-3">
+            <nav class="top-nav mr-5">
+                <div class="labe"><h4>Mentess</h4></div>
+                <div class="mr-auto"></div>
+                <div class="user__details">
+                    <div class="">
+                        <img src="img/notification.png" alt="notification-icon">
+                    </div>
+
+                    <div class="display-profile">
+                        <div class="display-picture"><img src="img/barly.png" style="width: 100px;" class="img-fluid"></div>
+                        
+                    </div>
+  
+                </div>
+
+            </nav>
+
+        </div>
+
+    </div>
+ 
+      <div class="container-fluid-flex flex-row justify-content-center flex-wrap pt-5">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item" aria-current="page">
+              <form class="form-inline my-2 my-lg-0">
+                <i class="fas fa-search"></i>
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search here"
+                  aria-label="Search"
+                  style="width: 260px; height: 50px;"
+                />
+              </form>
+            </li>
+            <div class="mr-auto"></div>
+            
+            <li class="breadcrumb-item" aria-current="page">
+              <button type="button" class="btn btn-primary">
+                Add New Mentor
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section-2">
+        <!--First Row Panel-->
+      <div class="d-flex flex-row justify-content-center flex-wrap pt-3">
+        <div class="col-md-4 col-12 text-center">
+          <div class="card">
+            <div class="card-img-top pt-3 pb-0">
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="circular-square"
+              />
+            </div>
+            <div class="card-body pb-0">
+              <h5 class="card-title">
+                Kisha Kisha
+              </h5>
+            </div>
+            <div class="mentee-div pb-3">
+                <p><h5>Mentees:</h5></p>
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+            </div>
+            <div class="action-btn pb-3">
+                <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <div class="card">
+              <div class="card-img-top pt-3 pb-0">
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="circular-square"
+                />
+              </div>
+              <div class="card-body pb-0">
+                <h5 class="card-title">
+                  Kisha Kisha
+                </h5>
+              </div>
+              <div class="mentee-div pb-3">
+                  <p><h5>Mentees:</h5></p>
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="action-btn pb-3">
+                  <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                  <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <div class="card">
+              <div class="card-img-top pt-3 pb-0">
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="circular-square"
+                />
+              </div>
+              <div class="card-body pb-0">
+                <h5 class="card-title">
+                  Kisha Kisha
+                </h5>
+              </div>
+              <div class="mentee-div pb-3">
+                  <p><h5>Mentees:</h5></p>
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="action-btn pb-3">
+                  <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                  <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <!--First Row Panel ends here-->
+
+     <!--Second Row Panel begins here-->
+      <div class="d-flex flex-row justify-content-center flex-wrap pt-3">
+        <div class="col-md-4 col-12 text-center">
+          <div class="card">
+            <div class="card-img-top pt-3 pb-0">
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="circular-square"
+              />
+            </div>
+            <div class="card-body pb-0">
+              <h5 class="card-title">
+                Kisha Kisha
+              </h5>
+            </div>
+            <div class="mentee-div pb-3">
+                <p><h5>Mentees:</h5></p>
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+              <img
+                src="./img/barly.png"
+                alt="Mentor"
+                class="img-fluid"
+              />
+            </div>
+            <div class="action-btn pb-3">
+                <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <div class="card">
+              <div class="card-img-top pt-3 pb-0">
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="circular-square"
+                />
+              </div>
+              <div class="card-body pb-0">
+                <h5 class="card-title">
+                  Kisha Kisha
+                </h5>
+              </div>
+              <div class="mentee-div pb-3">
+                  <p><h5>Mentees:</h5></p>
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="action-btn pb-3">
+                  <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                  <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <div class="card">
+              <div class="card-img-top pt-3 pb-0">
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="circular-square"
+                />
+              </div>
+              <div class="card-body pb-0">
+                <h5 class="card-title">
+                  Kisha Kisha
+                </h5>
+              </div>
+              <div class="mentee-div pb-3">
+                  <p><h5>Mentees:</h5></p>
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+                <img
+                  src="./img/barly.png"
+                  alt="Mentor"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="action-btn pb-3">
+                  <button type="button" style="width: 45%;" class="btn btn-light text-left">Delete <i class="fas fa-trash float-right pt-1"></i></button>
+                  <button type="button" style="width: 35%;" class="btn btn-primary text-left">Edit <i class="fas fa-pen float-right pt-1"></i></button>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <!--Second Row Panel ends here-->
+    </section>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
