@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-wrap > nav {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+}
+
+.dashboard-wrap > nav > ul > li > .dashboard-icon { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.dashboard-wrap > nav > ul > li > ul > li > a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-wrap >  nav > button {
+    border: none;
+    background: #004699;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #F9FAFC;
+}
+
+.dashboard-content {
+    margin: 0 auto;
+    margin-left: 217px;
+}
+
+nav.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 5rem;
+}
+
+.courses > .card {
+    border-radius: 6.5px;
+}
+
+.courses > .card .card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses > .card .card-buttons > button {
+    width: 47%;
+}
+
+.courses > .card .card-buttons > button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.courses > .card .card-buttons > .btn-delete {
+    border: 1.4px solid #0050AF;
+    color: #0050AF;
+}
+
+.courses > .card .card-buttons > .btn-delete:hover {
+    background-color: #0050AF;
+    color: #fff;
+}
+
+.courses > .card .card-buttons > .btn-edit {
+    background-color: #0050AF;
+    border: none;
+}
+
+.add-new-course {
+    border: 2px dashed #0050AF;
+}
+
+.add-new-course > div > button {
+    border: none;
+    background: none;
+}
+
+/*** UTILITIES ***/
+
+.text-white {
+    color: #F9FAFC;
+}
+
+.text-yellow {
+    color: #FFC100;
+}
+
+.text-blue {
+    color: #1F59BB
+}
+
+.active {
+    background: #004699;
+    height: 100%;
+    padding: 15px 0;
+    width: 100%
+}
