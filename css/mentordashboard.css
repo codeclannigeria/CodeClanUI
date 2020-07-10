@@ -116,4 +116,8 @@ tbody {
 }
 #icon {
     content: hidden;
+    opacity: 0;
+}
+#icon:hover {
+    opacity: 1;
 }
