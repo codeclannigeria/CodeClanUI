@@ -19,6 +19,11 @@ padding: 30px;
 background: #0050AF;
 height: 600px;   
 }
+.sidebar1 {
+    padding: 30px;
+    background: #0050AF;
+    height: 600px;   
+    }
 .nav-link {
 list-style: none;
 }
@@ -93,4 +98,26 @@ padding: 20px 10px;
 
 .no-line {
 text-decoration: none;
+}
+.table {
+    margin-top: 73px;
+}
+tbody {
+    border: 1px solid #555;
+}
+.fa-trash-alt {
+    color: red;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.fa-pen {
+    color: grey;
+    font-size: 10px;
+}
+#icon {
+    content: hidden;
+    opacity: 0;
+}
+#icon:hover {
+    opacity: 1;
 }
