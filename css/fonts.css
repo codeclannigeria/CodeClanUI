@@ -1,6 +1,46 @@
 /* @font-face*/
 
 @font-face {
-  font-family: "Darker Grotesque", sans-serif;
-  src: url("../fonts/Grotesque/DarkerGrotesque-Regular.ttf");
+  font-family: 'Darker Grotesque', sans-serif;
+  src: url('../fonts/Grotesque/DarkerGrotesque-Regular.ttf');
+}
+@font-face {
+  font-family: 'Bold Zilla Slab';
+  src: url(../fonts/Zilla_Slab/ZillaSlab-Bold.ttf);
+}
+@font-face {
+  font-family: 'SemiBold Zilla Slab';
+  src: url(../fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Regular Libre';
+  src: url(../fonts/Libre_Franklin/LibreFranklin-Regular.ttf);
+}
+@font-face {
+  font-family: 'Medium Libre';
+  src: url(../fonts/Libre_Franklin/LibreFranklin-Medium.ttf);
+}
+@font-face {
+  font-family: 'SemiBold Libre';
+  src: url(../fonts/Libre_Franklin/LibreFranklin-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Bold Libre';
+  src: url(../fonts/Libre_Franklin/LibreFranklin-Bold.ttf);
+}
+@font-face {
+  font-family: 'ExtraBold Libre';
+  src: url(../fonts/Libre_Franklin/LibreFranklin-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'Regular Manrope';
+  src: url(../fonts/Manrope/Manrope-Regular.ttf);
+}
+@font-face {
+  font-family: 'Bold Manrope';
+  src: url(../fonts/Manrope/Manrope-Bold.ttf);
+}
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
 }
